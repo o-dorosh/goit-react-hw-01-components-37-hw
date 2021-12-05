@@ -1,0 +1,45 @@
+.statistics {
+    margin: 0 auto;
+    margin-top: 20px;
+    border: 1px solid black;
+    width: 400px;
+    text-align: center;
+  }
+  
+  .statistics__list {
+    display: flex;
+    justify-content: space-around;
+    margin: 0;
+    padding: 0;
+  
+    border-top: 1px solid black;
+  }
+  
+  .statistics__list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    list-style-type: none;
+    text-align: center;
+  
+    height: 80px;
+    width: 80px;
+    color: white;
+  }
+  
+  .statistics__list li:not(:last-child) {
+    border-right: 1px solid black;
+  }
+  
+  .statistics__list li:nth-child(3n) {
+    background-color: blueviolet;
+  }
+  
+  .statistics__list li:nth-child(3n + 1) {
+    background-color: blue;
+  }
+  
+  .statistics__list li:nth-child(3n + 2) {
+    background-color: cornflowerblue;
+  }
