@@ -1,23 +1,20 @@
 {
   "files": {
-    "main.css": "/goit-react-hw-01-components-37-hw/static/css/main.a617e044.chunk.css",
-    "main.js": "/goit-react-hw-01-components-37-hw/static/js/main.e05755c9.chunk.js",
-    "main.js.map": "/goit-react-hw-01-components-37-hw/static/js/main.e05755c9.chunk.js.map",
-    "runtime-main.js": "/goit-react-hw-01-components-37-hw/static/js/runtime-main.8f38a67f.js",
-    "runtime-main.js.map": "/goit-react-hw-01-components-37-hw/static/js/runtime-main.8f38a67f.js.map",
-    "static/js/2.6fee0d6f.chunk.js": "/goit-react-hw-01-components-37-hw/static/js/2.6fee0d6f.chunk.js",
-    "static/js/2.6fee0d6f.chunk.js.map": "/goit-react-hw-01-components-37-hw/static/js/2.6fee0d6f.chunk.js.map",
-    "static/js/3.dcedc0ef.chunk.js": "/goit-react-hw-01-components-37-hw/static/js/3.dcedc0ef.chunk.js",
-    "static/js/3.dcedc0ef.chunk.js.map": "/goit-react-hw-01-components-37-hw/static/js/3.dcedc0ef.chunk.js.map",
+    "main.css": "/goit-react-hw-01-components-37-hw/static/css/main.97082287.chunk.css",
+    "main.js": "/goit-react-hw-01-components-37-hw/static/js/main.a9b62690.chunk.js",
+    "main.js.map": "/goit-react-hw-01-components-37-hw/static/js/main.a9b62690.chunk.js.map",
+    "runtime-main.js": "/goit-react-hw-01-components-37-hw/static/js/runtime-main.72f52f30.js",
+    "runtime-main.js.map": "/goit-react-hw-01-components-37-hw/static/js/runtime-main.72f52f30.js.map",
+    "static/js/2.8558ec19.chunk.js": "/goit-react-hw-01-components-37-hw/static/js/2.8558ec19.chunk.js",
+    "static/js/2.8558ec19.chunk.js.map": "/goit-react-hw-01-components-37-hw/static/js/2.8558ec19.chunk.js.map",
     "index.html": "/goit-react-hw-01-components-37-hw/index.html",
-    "static/css/main.a617e044.chunk.css.map": "/goit-react-hw-01-components-37-hw/static/css/main.a617e044.chunk.css.map",
-    "static/js/2.6fee0d6f.chunk.js.LICENSE.txt": "/goit-react-hw-01-components-37-hw/static/js/2.6fee0d6f.chunk.js.LICENSE.txt",
-    "static/media/logo.6ce24c58.svg": "/goit-react-hw-01-components-37-hw/static/media/logo.6ce24c58.svg"
+    "static/css/main.97082287.chunk.css.map": "/goit-react-hw-01-components-37-hw/static/css/main.97082287.chunk.css.map",
+    "static/js/2.8558ec19.chunk.js.LICENSE.txt": "/goit-react-hw-01-components-37-hw/static/js/2.8558ec19.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.8f38a67f.js",
-    "static/js/2.6fee0d6f.chunk.js",
-    "static/css/main.a617e044.chunk.css",
-    "static/js/main.e05755c9.chunk.js"
+    "static/js/runtime-main.72f52f30.js",
+    "static/js/2.8558ec19.chunk.js",
+    "static/css/main.97082287.chunk.css",
+    "static/js/main.a9b62690.chunk.js"
   ]
 }
