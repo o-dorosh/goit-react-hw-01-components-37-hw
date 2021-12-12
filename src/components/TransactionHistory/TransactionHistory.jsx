@@ -1,23 +1,23 @@
 import PropTypes from 'prop-types';
-import css from './TransactionHistory.module.css';
+import s from './TransactionHistory.module.css';
 
 export const TransactionHistory = ({ transactions  }) => {
     return (
-        <table  className={css.transaction_history}>
-            <thead className={css.tr_history__header}>
+        <table  className={s.transaction_history}>
+            <thead className={s.tr_history__header}>
                 <tr>
-                    <th className={css.tr_history__header_th}>Type</th>
-                    <th className={css.tr_history__header_th}>Amount</th>
-                    <th className={css.tr_history__header_th}>Currency</th>
+                    <th className={s.tr_history__header_th}>Type</th>
+                    <th className={s.tr_history__header_th}>Amount</th>
+                    <th className={s.tr_history__header_th}>Currency</th>
                 </tr>
             </thead>
 
             <tbody>
-            {transactions.map(transaction => (
-                <tr className={css.tr_history__body_tr} key={transaction.id}>
-                    <td className={css.tr_history__body_td}>{transaction.type}</td>
-                    <td className={css.tr_history__body_td}>{transaction.amount}</td>
-                    <td className={css.tr_history__body_td}>{transaction.currency}</td>
+            {transactions.map(({id, type, amount, currency}) => (
+                <tr className={s.tr_history__body_tr} key={id}>
+                    <td className={s.tr_history__body_td}>{type}</td>
+                    <td className={s.tr_history__body_td}>{amount}</td>
+                    <td className={s.tr_history__body_td}>{currency}</td>
                 </tr>
             ))}
             </tbody>

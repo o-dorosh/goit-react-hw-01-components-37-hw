@@ -6,6 +6,7 @@
     border: 1px solid rgb(172, 172, 172);
     text-align: center;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin-bottom: 50px;
 }
   
 .tr_history__header_th:not(:last-child) {
